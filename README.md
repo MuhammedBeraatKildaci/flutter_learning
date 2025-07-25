@@ -86,18 +86,23 @@ Bu proje, Flutter framework'ünü öğrenme sürecimde oluşturduğum uygulamala
 - [X] Material Design widget'ları
 - [X] Layout widget'ları (Row, Column, Container)
 - [X] Text ve Image widget'ları
+- [X] SizedBox ve SingleChildScrollView
+- [X] BottomNavigationBar
+- [X] FloatingActionButton
 
 ### Aşama 4: UI Tasarımı 🔄
 
-- [ ] Responsive tasarım
+- [X] Responsive tasarım (MediaQuery kullanımı)
+- [X] Gradient arka planlar
+- [X] Scroll edilebilir içerik
 - [ ] Custom widget'lar oluşturma
 - [ ] Animasyonlar ve geçişler
 - [ ] Theme ve styling
 
 ### Aşama 5: Navigation 📱
 
+- [X] Bottom navigation bar
 - [ ] Route yönetimi
-- [ ] Bottom navigation
 - [ ] Drawer ve AppBar
 - [ ] Deep linking
 
@@ -144,8 +149,12 @@ flutter_learning/
 ### Ana Ekran
 
 - Material Design AppBar
-- Merkezi konumlandırılmış metin
-- Responsive tasarım
+- Gradient arka planlı karşılama bölümü
+- Bottom Navigation Bar (Home, Settings)
+- Floating Action Button
+- CarouselView ile renkli kartlar
+- Scroll edilebilir içerik
+- Responsive tasarım (MediaQuery)
 - Temiz ve modern arayüz
 
 ## 🚀 Gelecek Planları
@@ -179,6 +188,9 @@ flutter_learning/
 2. **Hot Reload:** Geliştirme sürecini hızlandırır
 3. **Material Design:** Google'ın tasarım dili
 4. **State Management:** Uygulama durumunun yönetimi
+5. **MediaQuery:** Ekran boyutlarına göre responsive tasarım
+6. **SingleChildScrollView:** Scroll edilebilir içerik
+7. **Gradient:** Renk geçişli arka planlar
 
 ## 🔗 Faydalı Kaynaklar
 
@@ -205,8 +217,9 @@ flutter_learning/
 | ---------------- | --------------- | ----------------- |
 | Temel Kurulum    | ✅ Tamamlandı  | 100%              |
 | Dart Temelleri   | ✅ Tamamlandı  | 100%              |
-| Widget'lar       | 🔄 Devam Ediyor | 60%               |
-| Navigation       | ⏳ Bekliyor     | 0%                |
+| Widget'lar       | ✅ Tamamlandı  | 100%              |
+| UI Tasarımı    | 🔄 Devam Ediyor | 75%               |
+| Navigation       | 🔄 Devam Ediyor | 25%               |
 | State Management | ⏳ Bekliyor     | 0%                |
 | API Entegrasyonu | ⏳ Bekliyor     | 0%                |
 
@@ -218,13 +231,9 @@ Bu proje öğrenme amaçlıdır. Önerileriniz ve geri bildirimleriniz için:
 2. Pull request gönderin
 3. Dokümantasyonu geliştirin
 
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
-
 ## 👨‍💻 Geliştirici
 
-**Muhammed Berat Kıldaçı**
+**Muhammed Berat Kıldacı**
 
 - GitHub: [@muhammedberaatkildaci](https://github.com/muhammedberaatkildaci)
 - LinkedIn: [Profil Linki]
@@ -232,5 +241,3 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 ---
 
 **Not:** Bu README dosyası, Flutter öğrenme sürecimde güncellenecek ve genişletilecektir. Her yeni özellik ve öğrenilen kavram buraya eklenecektir.
-
-**Son Güncelleme:** $(date)
